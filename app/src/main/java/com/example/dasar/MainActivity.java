@@ -49,12 +49,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void hitungHasil() {
         try {
-            // Kita akan menggunakan logika sederhana:
-            // Jika data hanya angka, biarkan.
-            // Untuk pemula, mari kita buat logika hitung dua angka dulu.
-
-            // Tips: Untuk kalkulator canggih biasanya pakai library seperti 'exp4j'
-            // Tapi untuk tugas sekolah, biasanya kita membagi string berdasarkan operator.
 
             if (data.contains("+")) {
                 String[] bagian = data.split("\\+");
